@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d9525fb9-ac38-40d7-918e-d2571bbbc45f/deploy-status)](https://app.netlify.com/sites/rockpaperscissors-basic/deploys)
 
+https://rockpaperscissors-basic.netlify.app/
+
 # Rock-Paper-Scissors-Basic
 Rock Paper Scissors Basic
 
