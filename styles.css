@@ -1,0 +1,149 @@
+* {
+  font-family: Asap, Poppins, sans-serif;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+}
+
+header {
+  background: #f1f1f1;
+  color: #1a1a1a;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+}
+
+.score-board {
+  text-align: center;
+  margin: 20px auto;
+  border: 5px solid #f1f1f1;
+  width: 280px;
+  font-size: 2.5rem;
+  font-weight: 400;
+  border-radius: 4px;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.score-board span {
+  padding: auto 10px;
+  margin: auto 10px;
+}
+
+.badge {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background: #e25840;
+  color: #fff;
+  padding: 2px 10px;
+}
+
+#user-label {
+  position: absolute;
+  top: 21px;
+  left: -75px;
+  border: 3px solid #f1f1f1;
+}
+
+#computer-label {
+  position: absolute;
+  top: 21px;
+  left: 240px;
+  border: 3px solid #f1f1f1;
+}
+
+.result {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f1f1f1;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.result span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #44ff54;
+}
+
+.choices {
+  text-align: center;
+  padding: 5px;
+  margin: 50px 20px;
+}
+
+.choice {
+  border: 4px solid #fff;
+  border-radius: 50%;
+  margin: 10px;
+  padding: 10px;
+  display: inline-block;
+  text-align: center;
+  background-color: azure;
+}
+
+#r img {
+  position: relative;
+  top: 3px;
+  left: -1px;
+}
+
+#p img {
+  position: relative;
+  top: 5px;
+  left: -1px;
+}
+
+#s img {
+  position: relative;
+  top: 1px;
+  left: -1px;
+}
+
+.choice:hover {
+  cursor: pointer;
+  scale: 1.3;
+  transition: all .3s ease-in-out;
+  background-color: #f1f1f1;
+}
+
+#action-message {
+  padding: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.green-glow {
+  border: 5px solid #63cc6c;
+  box-shadow: 0 0 15px #24dd34;
+  transition: all .5s ease-in-out;
+}
+
+.red-glow {
+  border: 5px solid #f36060;
+  box-shadow: 0 0 15px #fc3737;
+  transition: all .5s ease-in-out;
+}
+
+.amber-glow {
+  border: 5px solid #ecb16d;
+  box-shadow: 0 0 15px #ff8819;
+  transition: all .5s ease-in-out;
+}
